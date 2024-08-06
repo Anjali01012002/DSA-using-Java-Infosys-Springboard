@@ -19,6 +19,16 @@ This repository contains Java implementations of various data structures and alg
 
 ## Files Added
 
+### 1 : `src/ArrayOperations.java`
+
+This file demonstrates basic array operations with user input, including:
+
+- **Initialization**: Displays an initial array.
+- **Insertion**: Inserts an element at a specified position.
+- **Deletion**: Removes an element from a specified position.
+- **Traversal**: Displays all elements with their indices.
+
+The program takes user input for insertion and deletion operations and prints the state of the array after each operation.
 
 ## How to Use This Repository
 
