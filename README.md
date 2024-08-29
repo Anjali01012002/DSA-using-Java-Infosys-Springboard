@@ -19,7 +19,7 @@ This repository contains Java implementations of various data structures and alg
 
 ## Files Added
 
-### 1 : `src/ArrayOperations.java`
+ ### 1 : `src/ArrayOperations.java`
 
 This file demonstrates basic array operations with user input, including:
 
@@ -55,26 +55,26 @@ The program includes a menu-driven interface that allows the user to perform dif
 
 3. **Compile and run Java files**:
 
-**Compile**: To compile a Java file, use:
+    **Compile**: To compile a Java file, use:
 
-javac src/filename.java
+        javac src/filename.java
 
-**Run**: To run the compiled Java file, use: 
+    **Run**: To run the compiled Java file, use: 
 
-java -cp src filename  
+        java -cp src filename  
 
-**Note**: The -cp src option specifies the classpath for the Java runtime, which is necessary if your .java files are organized in a directory like src/.
+    **Note**: The -cp src option specifies the classpath for the Java runtime, which is necessary if your .java files are organized in a directory like src/.
 
 4. **File Types**:
 
-**Java Source Files (.java)**: These files contain the implementations of various data structures and algorithms. These are the files you should focus on and commit.
-**Compiled Class Files (.class)**: These are generated when you compile Java files. They are not included in the repository and should not be pushed to GitHub.
+    **Java Source Files (.java)**: These files contain the implementations of various data structures and algorithms. These are the files you should focus on and commit.
+    **Compiled Class Files (.class)**: These are generated when you compile Java files. They are not included in the repository and should not be pushed to GitHub.
 
 5. **Repository Structure**:
 
-**src/**: Directory containing Java source files.
-**README.md**: This file, providing an overview and usage instructions.
-**.gitignore**: Specifies files and directories to be ignored by Git.
+    **src/**: Directory containing Java source files.
+    **README.md**: This file, providing an overview and usage instructions.
+    **.gitignore**: Specifies files and directories to be ignored by Git.
 
 ## Contributing
 Contributions are welcome! If you have suggestions or improvements, please submit a pull request or open an issue.
