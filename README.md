@@ -30,21 +30,40 @@ This file demonstrates basic array operations with user input, including:
 
 The program takes user input for insertion and deletion operations and prints the state of the array after each operation.
 
+### 2 : `src/SinglyLinkedList.java`
+
+This file demonstrates various operations on a singly linked list, including:
+
+- **Insertion at Beginning**: Adds a new node at the start of the linked list.
+- **Insertion at End**: Adds a new node at the end of the linked list.
+- **Insertion After a Given Node**: Adds a new node after a specific node.
+- **Deletion of Node by Key**: Deletes the first occurrence of a specified key in the linked list.
+- **Search for a Node**: Searches for a node with a specified key.
+- **Print List**: Displays the linked list from the first to the last node.
+
+The program includes a menu-driven interface that allows the user to perform different operations on the singly linked list based on user input.
+
 ## How to Use This Repository
 
 1. **Clone the repository**:
+
    git clone https://github.com/Anjali01012002/dsa-java-infosys-springboard.git
 
 2. **Navigate to the project directory**: 
+
     cd dsa-java-infosys-springboard
 
 3. **Compile and run Java files**:
 
 **Compile**: To compile a Java file, use:
+
 javac src/filename.java
 
 **Run**: To run the compiled Java file, use: 
-java -cp src filename  <!--command specifies the classpath for the Java runtime, which is necessary if your .java files are organized in a directory like src/. -->
+
+java -cp src filename  
+
+**Note**: The -cp src option specifies the classpath for the Java runtime, which is necessary if your .java files are organized in a directory like src/.
 
 4. **File Types**:
 
