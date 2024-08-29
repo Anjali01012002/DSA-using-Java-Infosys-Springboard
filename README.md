@@ -43,6 +43,21 @@ This file demonstrates various operations on a singly linked list, including:
 
 The program includes a menu-driven interface that allows the user to perform different operations on the singly linked list based on user input.
 
+### 3. `src/DoublyLinkedList.java`
+
+This file demonstrates operations on a doubly linked list, including:
+
+- **Insertion at Beginning**: Adds a new node at the start of the list.
+- **Insertion at End**: Adds a new node at the end of the list.
+- **Insertion After a Node**: Inserts a new node after a specified node.
+- **Deletion**: Deletes a node by its value.
+- **Search**: Searches for a node by its value.
+- **Print List**: Displays all nodes in the list in forward order.
+- **Print List in Reverse**: Displays all nodes in reverse order.
+
+The program allows users to perform various operations interactively, making it easy to understand the functioning of a doubly linked list.
+
+
 ## How to Use This Repository
 
 1. **Clone the repository**:
