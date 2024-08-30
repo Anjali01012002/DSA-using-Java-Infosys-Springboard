@@ -70,7 +70,21 @@ This file demonstrates operations on a circular linked list with string data, in
 
 The program includes menu interface, allowing users to perform these operations interactively, making it easy to see how a circular linked list works.
 
+### 5: `src/FindPositionInLinkedList.java - Exercise 1`
 
+This exercise demonstrates how to find the position of a given element in a linked list. The implementation of the `findPosition()` method is provided in the `FindPositionInLinkedList` class.
+
+#### **Problem Statement**
+
+Given a linked list, find and return the position of a given element in the linked list. If the element is not present, return 0. The position starts from 1.
+
+#### **Approach Used**
+
+1. Traverse the linked list starting from the head node.
+2. Maintain a counter for the current position starting from 1.
+3. Compare each node's data with the given element.
+4. Return the position if the element is found.
+5. Return 0 if the element is not found after traversing the list.
 
 ## How to Use This Repository
 
