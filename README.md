@@ -57,6 +57,20 @@ This file demonstrates operations on a doubly linked list, including:
 
 The program allows users to perform various operations interactively, making it easy to understand the functioning of a doubly linked list.
 
+### 4: `src/CircularLinkedList.java`
+
+This file demonstrates operations on a circular linked list with string data, including:
+
+- **Insertion at Beginning**: Adds a new node at the start of the circular linked list, making it the new head.
+- **Insertion at End**: Adds a new node at the end of the circular linked list, linking it back to the head to maintain the circular structure.
+- **Insertion After a Node**: Inserts a new node after a specified node in the circular linked list.
+- **Deletion of Node by Key**: Deletes the first node containing the specified string value, adjusting the links to maintain the circular nature.
+- **Search for a Node**: Searches for a node containing a specified string value within the circular linked list.
+- **Print List**: Displays all nodes in the circular linked list, starting from the head and looping back to the head.
+
+The program includes menu interface, allowing users to perform these operations interactively, making it easy to see how a circular linked list works.
+
+
 
 ## How to Use This Repository
 

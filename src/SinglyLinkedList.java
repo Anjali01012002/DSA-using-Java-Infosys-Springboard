@@ -136,34 +136,46 @@ public class SinglyLinkedList{
                     break;
                 case 3:
                     System.out.println("Enter value to insert after: ");
-                    int afterValue=sc.nextInt();
+                    int afterValue = sc.nextInt();
                     System.out.println("Enter new value to insert: ");
-                    int newValue=sc.nextInt();
-                    Node temp=list.head;
-                    while(temp!=null && temp.getData()!=afterValue){
-                        temp=temp.getNext();
+                    int newValue = sc.nextInt();
+
+                    Node temp = list.head;
+                    while (temp != null && temp.getData() != afterValue) {
+                        temp = temp.getNext();
                     }
-                    list.insertAfter(temp, newValue);
+
+                    if (temp == null) {
+                        System.out.println("Node with value " + afterValue + " not found in the list.");
+                    } else {
+                        list.insertAfter(temp, newValue);
+                        System.out.println("Inserted " + newValue + " after " + afterValue + ".");
+                    }
                     break;
+
                 case 4:
                     System.out.println("Enter value to delete : ");
                     int deleteValue=sc.nextInt();
                     list.deleteNode(deleteValue);
                     break;
+
                 case 5:
                     System.out.println("Enter value to search: ");
                     int searchValue=sc.nextInt();
                     boolean found=list.search(searchValue);
                     System.out.println("Search result: "+(found?"Found":"Not Found"));
                     break;
+
                 case 6:
                     System.out.println("Linked List: ");
                     list.printList();
                     break;
+
                 case 7:
                     sc.close();
                     System.out.println("Exiting...");
                     return;
+                    
                 default:
                     System.out.println("Invalid choice.Please try again.");
             }
