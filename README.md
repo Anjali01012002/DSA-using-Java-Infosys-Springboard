@@ -11,6 +11,7 @@ This repository contains Java implementations of various data structures and alg
 - **Queue**
 - **Collections Framework and Generics**
 - **Introduction to Algorithms**
+- **Space Complexity and Time Complexity**
 - **Analysis of Algorithms**
 - **Searching Algorithms**
 - **Sorting Algorithms**
